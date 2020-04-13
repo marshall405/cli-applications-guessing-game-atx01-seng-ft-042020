@@ -32,7 +32,7 @@ def run_guessing_game
   input = get_user_input
   
   if input == 'exit'
-    puts "Goodbye"
+    puts "Goodbye!"
     return
   end
   if num == input
