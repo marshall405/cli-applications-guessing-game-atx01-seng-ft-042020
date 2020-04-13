@@ -22,7 +22,7 @@ def winning_message
 end
 
 def losing_message(num)
-  puts "Sorry! The computer guessed #{num}"
+  puts "Sorry! The computer guessed #{num}."
 end
 
 
