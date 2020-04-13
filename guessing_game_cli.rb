@@ -35,7 +35,7 @@ def run_guessing_game
     puts "Goodbye!"
     return
   end
-  if num == input
+  if num == input.to_i
     winning_message
   else
     losing_message(num)
