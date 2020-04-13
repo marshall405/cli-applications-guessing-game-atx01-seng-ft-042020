@@ -26,3 +26,19 @@ def losing_message(num)
 end
 
 
+def run_guessing_game
+  num = random_number
+  prompt_user
+  input = get_user_input
+  
+  if input == 'exit'
+    puts "Goodbye"
+    return
+  end
+  if num == input
+    winning_message
+  else
+    losing_message(num)
+  end
+  
+end
